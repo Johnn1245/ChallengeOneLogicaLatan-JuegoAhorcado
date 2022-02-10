@@ -1,1 +1,0 @@
-# ChallengeOneLogicaLatan2
