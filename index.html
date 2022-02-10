@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>El Ahorcado</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_1.css">
+</head>
+
+<body>
+
+  <main>
+    
+    <div id="pag-principal">
+      <h1 class="title">El Ahorcado</h1> 
+      <button class="btn-azul" id="pag-principal-btn-azul">Iniciar juego</button>
+      <button class="btn-gris" id="pag-principal-btn-gris">Agregar nueva palabra</button>
+    </div>
+
+    <div id="pag-agregar-palabra">
+      <div>
+        <p></p>
+      </div>
+
+      <div> <input type="text" placeholder="Ingrese una palabra"></div>
+      
+      <div id="botones-agregar">
+        
+        <p>
+
+          <span id="ayuda"> Maximo de 10 letras</span>
+        </p>
+        
+        <button class="btn-azul">Guardar y empezar</button>
+        
+        <button class="btn-gris">Cancelar</button>
+      </div>
+    </div>
+
+    <div id="pag-jugar">
+      
+      <div id="pag-jugar-canvas">
+        <canvas width="600px" height="520px"></canvas>
+      </div>
+      
+      <div id="pag-jugar-botones">
+        <button class="btn-azul">Nuevo juego</button>
+        &nbsp; &nbsp;
+        <button class="btn-gris">Abandonar</button>
+      </div> 
+      <div id="teclado">
+        <button>A</button> <button>B</button> <button>C</button>
+        <button>D</button> <button>E</button> <button>F</button>
+        <button>G</button> <button>H</button> <button>I</button>
+        <button>J</button> <button>K</button> <button>L</button>
+        <button>M</button> <button>N</button> <button>O</button>
+        <button>P</button> <button>Q</button> <button>R</button>
+        <button>S</button> <button>T</button> <button>U</button>
+        <button>V</button> <button>W</button> <button>X</button>
+        <button>Y</button> <button>Z</button>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Derechos Reservados © Johnn Advincula 2022</p>
+  </footer>
+  <script type="text/javascript" src="inicio.js"></script>
+  <script type="text/javascript" src="canvas.js"></script>
+  <script type="text/javascript" src="jugar.js"></script>
+  <script type="text/javascript" src="agregarPalabra.js"></script>
+</body>
+
+</html>
