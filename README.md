@@ -1,1 +1,1 @@
-# ChallengeOneJuegoAhorcado-2
+# ChallengeOneLogicaLatan-JuegoAhorcado
